@@ -160,3 +160,376 @@
 // document.write(num + " x 8 = " + num * 8 + "<br>")
 // document.write(num + " x 9 = " + num * 9 + "<br>")
 // document.write(num + " x 10 = " + num * 10)
+
+// CHAPTER 6 to 8
+
+// Question # 1
+// var a = 10
+// console.log("Results:")
+// console.log("The value of a is: " + a)
+// ++a
+// console.log("The value of ++a is: " + a)
+// ++a
+// console.log("Now the value of a is: " + a)
+// --a
+// console.log("Now the value of --a is: " + a)
+// console.log("Now the value of a is: " + a)
+// console.log("The value of a-- is: " + a)
+// a--
+// console.log("Now the value of a is: " + a)
+
+// Question # 2
+// var a = 2
+// var b = 1
+// var result = --a - --b + ++b + b-- 
+// console.log("a is " + a)
+// console.log("b is " + b)
+// console.log("result is " + result)
+
+// Question # 3
+// var userName = prompt("Enter your name")
+// alert("Hello " + userName + ", welcome to our website!")
+
+// Question # 4
+
+// Question # 5
+// var num = prompt("Enter a number", 5)
+// console.log("Table of " + num)
+// console.log(num + " x 1 = " + num * 1)
+// console.log(num + " x 2 = " + num * 2)
+// console.log(num + " x 3 = " + num * 3)
+// console.log(num + " x 4 = " + num * 4)
+// console.log(num + " x 5 = " + num * 5)
+// console.log(num + " x 6 = " + num * 6)
+// console.log(num + " x 7 = " + num * 7)
+// console.log(num + " x 8 = " + num * 8)
+// console.log(num + " x 9 = " + num * 9)
+// console.log(num + " x 10 = " + num * 10)
+
+// Question # 6
+// var subject1 = prompt("Enter name of subject 1", "English")
+// var obtaineMarks1 = prompt("Enter obtained marks for subject 1", 85)
+// var subject2 = prompt("Enter name of subject 2", "Computer")
+// var obtaineMarks2 = prompt("Enter obtained marks for subject 2", 80)
+// var subject3 = prompt("Enter name of subject 3", "Science")
+// var obtaineMarks3 = prompt("Enter obtained marks for subject 3", 70)
+// var totalMarks = 100
+// console.log("Subject", " ", "Total Marks", " ", "Obtained Marks", " ", "Percentge")
+// console.log(subject1, "     ", totalMarks, "           ", obtaineMarks1, "          ", obtaineMarks1 / totalMarks * 100 + "%")
+// console.log(subject2, "     ", totalMarks, "           ", obtaineMarks2, "          ", obtaineMarks2 / totalMarks * 100 + "%")
+// console.log(subject3, "     ", totalMarks, "           ", obtaineMarks3, "          ", obtaineMarks3 / totalMarks * 100 + "%")
+
+// CHAPTER 9 to 12
+
+// Question # 1
+// var city = prompt("Enter your City name")
+// if (city == "Karachi"){
+//     console.log("Welcome to the city of lights!")
+// }
+
+// Question # 2
+// var userGender = prompt("Enter your gender")
+// if (userGender == "male") {
+//     console.log("Good Morning Sir")
+// } else {
+//     console.log("Good Morning Ma'am")
+// }
+
+// Question # 3
+// var trafficSignalColor = prompt("Enter traffic signal light color")
+// if (trafficSignalColor == "red") {
+//     console.log("Must Stop")
+// } else if (trafficSignalColor == "yellow") {
+//     console.log("Ready to move")
+// } else {
+//     console.log("Move now")
+// }
+
+// Question # 4
+// var remainingFuel = prompt("Please enter remaining fuel in car (litres)")
+// if (remainingFuel < 0.25) {
+//     console.log("Please refill the fuel in your car!")
+// }
+
+// Question # 5
+// A) var a = 4
+// if (++a === 5) {
+//     alert("given condition for variable a is true")  //Alert displayed
+// }
+
+// B) var b = 82
+// if (b++ === 83) {
+//     alert("given condition for variable b is true") //Alert not displayed
+// }
+
+// C) var c = 12
+// if (c++ === 13) {
+//     alert("condition 1 is true")
+// }
+// if (c === 13) {
+//     alert("condition 2 is true")  //Alert displayed
+// }
+// if (++c < 14) {
+//     alert("condition 3 is true")
+// }
+// if (c === 14) {
+//     alert("condition 4 is true")  //Alert displayed
+// }
+
+// D) var materialCost = 20000
+// var laborCost = 2000
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost) {
+//     alert("The cost equals")  //Alert displayed
+// }
+
+// E) if (true) {
+//     alert("True")
+// }
+// if (false) {
+//     alert("False");
+// }
+
+// F) if ("car" < "cat") {
+//     alert("car is smaller than cat");
+// }
+
+// Question # 6
+// var marksInEnglish = 80
+// var marksInComputer = 70
+// var marksInScience = 60
+// var totalMarks = 300
+// var markObtained = marksInEnglish + marksInComputer + marksInScience
+// var percentge = markObtained / totalMarks * 100
+// var grade;
+// var remarks;
+// console.log("Mark Sheet")
+// console.log("Total Marks:", totalMarks)
+// console.log("Marks Obtained:", markObtained)
+// console.log("Percentage:", percentge + "%")
+// if (percentge >= 80) {
+//     grade = "A-one"
+//     remarks = "Exellent"
+// } else if (percentge >= 70) {
+//     grade = "A"
+//     remarks = "Good"
+// } else if (percentge >= 60) {
+//     grade = "B"
+//     remarks = "You need to improve"
+// } else if (percentge < 60) {
+//     grade = "Fail"
+//     remarks = "Sorry"
+// }
+// console.log("Grade:", grade)
+// console.log("Remarks", remarks)
+
+// Question # 7
+// var secreatNumber = 7
+// var userNumber = prompt("Guess a number between 1 to 10")
+// if (secreatNumber == userNumber) {
+//     console.log("Bingo! Correct answer")    
+// } else {
+//     console.log("Close enough to the correct answer")    
+// }
+
+// Question # 8
+// var num = prompt("Enter a number")
+// if (num % 3 == 0) {
+//     console.log("The number is divisible by 3")
+// }
+
+// Question # 9
+// var num = prompt("Enter a number")
+// if (num % 2 == 0) {
+//     console.log("The number is even")
+// } else {
+//     console.log("The number is odd")
+// }
+
+// Question # 10
+// var temperature = 11
+// if (temperature > 40) {
+//     console.log("It is too hot outside")
+// } else if (temperature > 30) {
+//     console.log("The Weather today is Normal")
+// } else if (temperature > 20) {
+//     console.log("Today's Weather is cool")
+// } else if (temperature > 10) {
+//     console.log("OMG! Today's Weather is so Cool")
+// }
+
+// Question # 11
+// var firstNumber = Number(prompt("Enter first number"))
+// var secondNumber = Number(prompt("Enter second number"))
+// var operator = prompt("Select the number of operation \n1) Addition (+) \n2) Subtraction (-) \n3) Multiplication (*) \n4) Division (/) \n5) Modulous (%)")
+// if (operator == 1) {
+//     console.log(firstNumber + secondNumber)
+// } else if (operator == 2) {
+//     console.log(firstNumber - secondNumber)
+// } else if (operator == 3) {
+//     console.log(firstNumber * secondNumber)
+// } else if (operator == 4) {
+//     console.log(firstNumber / secondNumber)
+// } else if (operator == 5) {
+//     console.log(firstNumber % secondNumber)
+// }
+
+// CHAPTER 12 & 13
+
+// Question # 1
+// var characterInput = prompt("Enter a character")
+// var asciiCode = characterInput.charCodeAt()
+// if (asciiCode >= 48 && asciiCode <= 57) {
+//     console.log("It's a number")    
+// } else if (asciiCode >= 65 && asciiCode <= 90) {
+//     console.log("It's an Uppercase letter")
+// } else if (asciiCode >= 97 && asciiCode <= 122) {
+//     console.log("It's a Lowercase letter")
+// } else {
+//     console.log("Please enter a valid character")    
+
+// Question # 2
+// var num1 = 5
+// var num2 = 2
+// if (num1 > num2) {
+//     console.log(num1 + " is greater")    
+// } else {
+//     console.log(num2 + " is greater")    
+// }
+
+// Question # 3
+// var num = prompt("Enter a number")
+// if (num > 0) {
+//     console.log("Your number is positive")
+// } else if (num < 0) {
+//     console.log("Your number is negative")
+// } else if (num == 0) {
+//     console.log("Your number is 0")
+// } else {
+//     console.log("Please enter a valid number")
+// }
+
+// Question # 4
+// var character = prompt("Enter a character")
+// if (character.length > 1) {
+//     console.log("Please enter a single character")
+// } else if (character == "a" || character == "e" || character == "i" || character == "o" || character == "u") {
+//     console.log("Your character is vowel")
+// } else {
+//     console.log("Your character is not vowel")
+// }
+
+// Question # 5
+// var userPassword = prompt("Enter your password")
+// var correctPassword = "Muaaz747"
+// if (userPassword.length == 0) {
+//     console.log("Please enter a password")
+// } else if (userPassword == correctPassword) {
+//     console.log("“Correct! The password you entered matches the original password")
+// } else {
+//     console.log("Incorrect password")
+// }
+
+// Question # 6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// }
+// else {
+//     greeting = "Good evening";
+// }
+// console.log(greeting)
+
+// Question # 7
+// var time = prompt("Enter current time (e.g. 1900)", 1900)
+// if (time >= "0000" && time < 1200) {
+//     console.log("Good morning!")
+// } else if (time >= 1200 && time < 1700) {
+//     console.log("Good afternoon!")
+// } else if (time >= 1700 && time < 2100) {
+//     console.log("Good evening!")
+// } else if (time >= 2100 && time < 2359) {
+//     console.log("Good night!")
+// }
+
+// CHAPTER 14 to 16
+
+// Question # 1
+// var studentNames = []
+// studentNames[0] = "Muaaz"
+// studentNames[1] = "Hizbullah"
+// studentNames[2] = "Ali"
+// console.log(studentNames)
+
+// Quetion # 2
+// var studentNames = []
+// studentNames[0] = "Muaaz"
+// studentNames[1] = "Hizbullah"
+// studentNames[2] = "Ali"
+// console.log(studentNames)
+
+// Question # 3
+// var fruits = ["Apple", "Mango", "Banana"]
+// console.log(fruits)
+
+// Question # 4
+// var numbers = [1, 2, 3]
+// console.log(numbers)
+
+// Question # 5
+// var boolean = [true, false]
+// console.log(boolean)
+
+// Question # 6
+// var mixedArr = ["Muaaz", 1, true]
+// console.log(mixedArr)
+
+// Question # 7
+// var qualifiction = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.PHILL. "PHD"]
+// console.log("Qualifivation:")
+// console.log("1)", qualifiction[0])
+// console.log("2)", qualifiction[1])
+// console.log("3)", qualifiction[2])
+// console.log("4)", qualifiction[3])
+// console.log("5)", qualifiction[4])
+// console.log("6)", qualifiction[5])
+// console.log("7)", qualifiction[6])
+// console.log("8)", qualifiction[7])
+
+// Quetion # 8
+// var studentNames = ["Muaaz", "Hizbullah", "Ali"]
+// var studentScores = [440, 2500, 390]
+// var totalMarks = 500
+// console.log("Score of", studentNames[0], "is", studentScores[0] + ".", "Percentge:", studentScores[0] / totalMarks * 100 + "%")
+// console.log("Score of", studentNames[1], "is", studentScores[1] + ".", "Percentge:", studentScores[1] / totalMarks * 100 + "%")
+// console.log("Score of", studentNames[2], "is", studentScores[2] + ".", "Percentge:", studentScores[2] / totalMarks * 100 + "%")
+
+// Quuetion # 9
+// var colors = ["Red", "Green", "Blue"]
+// console.log(colors)
+
+// var colorToAddBeginning = prompt("Enter a color to add to the beginning", "Purple")
+// colors.unshift(colorToAddBeginning)
+// console.log(colors)
+
+// colors.unshift("Brown", "Orange")
+// console.log(colors)
+
+// colors.shift()
+// console.log(colors)
+
+// colors.pop()
+// console.log(colors)
+
+// var index = 2
+// var colorName = prompt("What color you wants to add?", "Gray")
+// colors.splice(index, 0, colorName)
+// console.log(colors)
+
+// var index = 2
+// var deleteCount = 1
+// colors.splice(index, deleteCount)
+// console.log(colors)
+
+// Question # 10
